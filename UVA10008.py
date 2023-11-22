@@ -8,7 +8,6 @@ for i in range(line_num):
                 dict1[ii] += 1
             else:
                 dict1[ii] = 1
-# print(dict1)
 list1 = list(dict1.items())
 for i in range(len(list1) - 1,0,-1):
     for ii in range(i):
@@ -22,4 +21,3 @@ for i in range(len(list1) - 1,0,-1):
             list1[ii + 1] = tmp
 for i in list1:
     print(i[0].upper(),i[1])
-            

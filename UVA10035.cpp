@@ -15,7 +15,6 @@ int main()
         m_num = max(num1,num2);
         while(m_num > 0)
         {
-            // cout << num1 % 10 << " " << num2 % 10 << " " << carry << endl;
             sum = num1 % 10 + num2 % 10 + carry;
             carry = 0;
             if(sum > 9)
