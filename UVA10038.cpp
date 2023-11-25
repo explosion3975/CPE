@@ -18,7 +18,6 @@ int main()
         {
             num += abs(array[i] - array[i + 1]);
         }
-        // cout << num << " " <<  (total * (total - 1)) / 2 << endl;
         if(num == (total * (total - 1)) / 2)
         {
             cout << "Jolly" << endl;
